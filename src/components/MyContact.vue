@@ -1,12 +1,12 @@
 <template>
     <div class="flex flex-col p-3 m-2 p-2">
         <h2 class="text-3xl text-center text-slate-300 font-semibold m-2"> CONTACT ME </h2>
-        <div class="flex flex-row ">
-            <label class="flex flex-col w-1/2 mx-2">
+        <div class="flex flex-row flex-wrap justify-evenly">
+            <label class="flex flex-col w-full ">
                 <span class="my-label">Firstname</span>
                 <input type="text" class="my-input"/>
             </label>
-            <label class="flex flex-col w-1/2 mx-2">
+            <label class="flex flex-col w-full">
                 <span class="my-label">Lastname</span>
                 <input type="text" class="my-input"/>
             </label>
